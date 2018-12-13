@@ -10,4 +10,4 @@ App que dá ao usuário a habilidade de registrar o placar de uma partida de vol
 
 ## Copyright
 
-Esse projeto foi desenvolvido por Márcio Souza de Oliveira.
+Esse projeto foi desenvolvido por Márcio Souza de Oliveira em 03/09/2016.
