@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary theme color of the app (sets background color of app bar) -->
+    <color name="colorPrimary">#3F51B5</color>
+    <!-- Primary theme color of the app (sets background color of app bar) -->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!-- App background color -->
+    <color name="appBgColor">#8BC34A</color>
+    <!-- Score and stats panels background color -->
+    <color name="scoreBgColor">@android:color/white</color>
+    <!-- Panel buttons background color -->
+    <color name="buttonBgColor">#FFC107</color>
+    <!-- Buttons border color -->
+    <color name="buttonBorderColor">@android:color/black</color>
+    <!-- Reset button background color -->
+    <color name="resetBgColor">#F44336</color>
+    <!-- Line color of stats table -->
+    <color name="statsTable">@android:color/darker_gray</color>
+</resources>

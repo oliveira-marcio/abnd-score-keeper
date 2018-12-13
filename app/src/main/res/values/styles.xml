@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Score panels theme. -->
+    <style name="ScoreCard" parent="Card">
+        <item name="android:layout_width">@dimen/score_panel_width</item>
+        <item name="android:layout_height">@dimen/score_panel_height</item>
+    </style>
+
+    <!-- Stats panels theme. -->
+    <style name="StatsCard" parent="Card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/stats_padding</item>
+    </style>
+
+    <!-- Base panels theme. -->
+    <style name="Card">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:elevation">@dimen/panel_elevation</item>
+        <item name="android:background">@drawable/score_background</item>
+    </style>
+
+    <!-- Team name style on score panel -->
+    <style name="TeamName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!-- Score number style on score panel -->
+    <style name="TeamScore">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/score_font_size</item>
+    </style>
+
+    <!-- Base panel buttons theme -->
+    <style name="ScoreButton">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <!-- Base column separator style on stat panel -->
+    <style name="ColumnSeparator">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/separator_padding</item>
+        <item name="android:background">@color/statsTable</item>
+    </style>
+
+    <!-- First cell header style on stat panel -->
+    <style name="FirstCellHeader" parent="FirstCellData">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- First cell data style on stat panel -->
+    <style name="FirstCellData">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/separator_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!-- Base cell header style on stat panel -->
+    <style name="CellHeader" parent="CellData">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Base cell data style on stat panel -->
+    <style name="CellData">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/separator_padding</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+</resources>

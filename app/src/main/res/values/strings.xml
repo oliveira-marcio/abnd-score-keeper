@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Volleyball Score Keeper</string>
+    <!-- Score team labels -->
+    <string name="team_1_name">Team A</string>
+    <string name="team_2_name">Team B</string>
+
+    <!-- Buttons labels -->
+    <string name="first_service">FIRST SERVICE</string>
+    <string name="ace_point">ACE POINT</string>
+    <string name="attack_point">ATTACK POINT</string>
+    <string name="block_point">BLOCK POINT</string>
+    <string name="opponent_fault">OPPON. FAULT</string>
+    <string name="opponent_error">OPPON. ERROR</string>
+    <string name="reset_button">RESET</string>
+
+    <!-- Stats labels -->
+    <string name="services_header">Srv</string>
+    <string name="aces_header">Ace</string>
+    <string name="attacks_header">Atk</string>
+    <string name="blocks_header">Blk</string>
+    <string name="faults_header">Flt</string>
+    <string name="errors_header">Err</string>
+    <string name="efficiency_header">%</string>
+
+</resources>

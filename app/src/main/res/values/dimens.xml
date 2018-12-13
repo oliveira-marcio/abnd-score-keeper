@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- elevation value of score and stats panels -->
+    <dimen name="panel_elevation">4dp</dimen>
+
+    <!-- score panels dimensions -->
+    <dimen name="score_panel_width">100dp</dimen>
+    <dimen name="score_panel_height">70dp</dimen>
+
+    <!-- numbers size of score panels -->
+    <dimen name="score_font_size">36sp</dimen>
+
+    <!-- stats panel padding -->
+    <dimen name="stats_padding">16dp</dimen>
+
+    <!-- control panel button's attributes: margin, height and padding -->
+    <dimen name="button_margin">12dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_padding">4dp</dimen>
+
+    <!-- stats panel table padding -->
+    <dimen name="separator_padding">4dp</dimen>
+</resources>
